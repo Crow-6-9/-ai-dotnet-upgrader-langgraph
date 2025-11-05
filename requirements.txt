@@ -1,19 +1,14 @@
-﻿# ===============================
-# Core Dependencies
-# ===============================
-streamlit
-openai
+﻿# Core
+streamlit==1.30.0
+openai==1.0.0
 requests
 pyjwt
+streamlit-diff-viewer
 
-# ===============================
-# LangGraph + LangChain Compatibility
-# ===============================
-langgraph>=0.1.0
-langchain-core>=0.3.72,<1.0.0
+# LangGraph + LangChain (Compatible)
+langgraph==1.0.1
+langchain-core==0.3.79
 langchain-text-splitters==0.3.9
 
-# ===============================
-# Streamlit UI Extensions
-# ===============================
-streamlit-diff-viewer
+# Optional for local use
+python-dotenv
