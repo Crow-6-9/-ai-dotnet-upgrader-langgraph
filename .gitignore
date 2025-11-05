@@ -1,0 +1,76 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+venv*/ 
+.env
+.venv/
+ENV/
+env.bak/
+env/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ===============================
+# IDE & Editor files
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs & caches
+# ===============================
+*.log
+*.tmp
+*.cache
+__pycache__/
+pytest_cache/
+.cache/
+.mypy_cache/
+coverage.xml
+htmlcov/
+
+# ===============================
+# Build outputs
+# ===============================
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ===============================
+# Zip & archive files
+# ===============================
+*.zip
+*.tar
+*.tar.gz
+
+# ===============================
+# Miscellaneous
+# ===============================
+# Ignore Jupyter checkpoints if ever used
+.ipynb_checkpoints/
+# Ignore dotenv local overrides
+.env.local
+.env.dev
+.env.prod
+.env.test
