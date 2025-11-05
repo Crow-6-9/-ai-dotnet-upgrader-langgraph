@@ -3,8 +3,12 @@ import zipfile
 import tempfile
 import shutil
 import streamlit as st
+st.set_page_config(page_title="AI .NET Upgrader (LangGraph)", layout="wide")
+
 from langgraph_app import build_graph, run_graph_invoke
 from utils.file_utils import save_uploaded_zip, create_upgraded_zip, extract_diffs_from_markdown
+
+
 
 # --- Check Azure OpenAI credentials ---
 def check_azure_connection():
@@ -32,7 +36,6 @@ def check_azure_connection():
 # --- Run connection check before rest of UI loads ---
 check_azure_connection()
 
-st.set_page_config(page_title="AI .NET Upgrader (LangGraph)", layout="wide")
 st.title("AI .NET Upgrader — LangGraph Edition")
 
 st.sidebar.header("Settings")
