@@ -1,9 +1,19 @@
-﻿streamlit
+﻿# ===============================
+# Core Dependencies
+# ===============================
+streamlit
 openai
-python-dotenv
 requests
 pyjwt
-langgraph==0.0.39
-langchain-core==0.3.79
+
+# ===============================
+# LangGraph + LangChain Compatibility
+# ===============================
+langgraph>=0.1.0
+langchain-core>=0.3.72,<1.0.0
 langchain-text-splitters==0.3.9
+
+# ===============================
+# Streamlit UI Extensions
+# ===============================
 streamlit-diff-viewer
